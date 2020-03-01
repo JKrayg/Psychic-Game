@@ -3,7 +3,42 @@
     margin: 0;
 }
 
-.header {
-    border: 1px solid black;
-    height: 200px;
+body {
+    background-color: skyblue;
 }
+
+.header {
+    height: 125px;
+    background: linear-gradient(purple,skyblue);
+    text-align: center;
+    font-family: "Trade Winds", sans-serif;
+    font-size: 50px;
+   
+}
+
+.container {
+    border: 1px solid black;
+    width: 45%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 400px;
+    line-height: 1.5;
+    background-color: rgb(89, 171, 204);
+    
+}
+
+#subtitle {
+    font-family: "Trade Winds", sans-serif;
+    font-size: 20px;
+}
+
+img {
+    float: right;
+    margin-top: 50px;
+    width: 45%;
+    height: 400px;
+    margin-right: 20px;
+    border: 8px solid rgb(89, 171, 204);
+}
+
