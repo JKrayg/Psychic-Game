@@ -28,7 +28,14 @@ body {
     
 }
 
-#subtitle {
+#subtitle1 {
+    font-family: "Trade Winds", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#subtitle2 {
     font-family: "Trade Winds", sans-serif;
     
 }
@@ -44,7 +51,7 @@ body {
 
 #footy {
     border: 1px solid black;
-    height: 100px;
+    height: 70px;
     position: fixed;
     bottom: 0px;
     width: 100%;
