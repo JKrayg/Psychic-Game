@@ -1,2 +1,2 @@
 # Psychic-Game
-A game that is psychic
+https://jkrayg.github.io/Psychic-Game/
