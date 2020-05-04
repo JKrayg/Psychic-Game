@@ -4,58 +4,51 @@
 }
 
 body {
-    background-color: skyblue;
+    background-color: rgb(181, 181, 181);
 }
 
 .header {
     height: 125px;
-    background: linear-gradient(rgb(255, 123, 0),skyblue);
+    color: rgb(208, 208, 208);
+    background: linear-gradient(rgb(28, 28, 28),rgb(181, 181, 181));
     text-align: center;
-    font-family: "Trade Winds", sans-serif;
     font-size: 50px;
    
 }
 
 .container {
-    border: 1px solid black;
+    border: 2px solid black;
+    box-shadow: 5px 10px 5px rgb(106, 106, 106);
+    border-radius: 5px;
     width: 45%;
     padding: 10px;
     margin-top: 50px;
     margin-left: 20px;
     height: 400px;
     line-height: 1.5;
-    background-color: rgb(89, 171, 204);
+    background-color: lightgray;
     
 }
 
 #subtitle1 {
-    font-family: "Trade Winds", sans-serif;
     text-align: center;
     font-size: 30px;
     
 }
 
-#subtitle2 {
-    font-family: "Trade Winds", sans-serif;
-    
-}
-
-#img1 {
-    float: right;
-    margin-top: 50px;
-    width: 45%;
-    height: 405px;
-    margin-right: 20px;
-    border: 8px solid rgba(255, 123, 0, 0.582);
+img {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #footy {
-    border: 1px solid black;
+    border-top: 5px solid rgb(28, 28, 28);
     height: 70px;
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background-image: url(../images/36281.jpg);
+    background-color: lightgray;
     
 }
 
